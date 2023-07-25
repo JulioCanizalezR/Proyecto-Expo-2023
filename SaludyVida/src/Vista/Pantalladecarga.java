@@ -15,7 +15,7 @@ public class Pantalladecarga extends javax.swing.JFrame {
      */
     public Pantalladecarga() {
         initComponents();
-       
+        this.setLocationRelativeTo(null);
         rsscalelabel.RSScaleLabel.setScaleLabel(jLabel2, "src/Imagenes/Logoasces.png");
     }
 
